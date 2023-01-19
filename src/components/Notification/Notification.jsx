@@ -6,3 +6,5 @@ export const Notification = ({ message }) => <p className={css.message}>{message
 Notification.propTypes = {
   message: propTypes.string.isRequired,
 };
+
+export default Notification;
